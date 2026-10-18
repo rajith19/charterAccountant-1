@@ -5,119 +5,203 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chaitra &amp; Associates — Fund Finance for VC and PE</title>
   <meta name="description" content="Helping investment managers build investor-ready finance operations without the cost of a full-time finance team.">
-  <meta name="theme-color" content="#2f6fe0">
+  <meta name="theme-color" content="#3d73ea">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/tailwind.css">
 </head>
-<body class="bg-white font-sans text-ink antialiased">
-  <a class="absolute left-4 -top-16 z-[80] rounded-full bg-navy px-3 py-2 text-white focus:top-3" href="#main">Skip to content</a>
-  <header class="sticky top-0 z-40 border-b border-line bg-white/90 backdrop-blur">
-    <div class="mx-auto flex min-h-[4.5rem] w-full max-w-6xl items-center justify-between gap-4 px-5">
-      <a class="text-lg font-extrabold tracking-tight text-navy no-underline" href="index.html">Chaitra &amp; Associates</a>
-      <button id="nav-toggle" class="grid h-11 w-11 place-items-center rounded-full border border-line md:hidden" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+<body class="overflow-x-hidden bg-sky font-sans text-ink antialiased">
+  <a class="absolute left-4 -top-16 z-[80] rounded-xl bg-navy px-3 py-2 text-white focus:top-3" href="#main">Skip to content</a>
+
+  <header class="fixed inset-x-0 top-4 z-50 px-4">
+    <div class="relative mx-auto flex min-h-16 w-full max-w-6xl items-center justify-between rounded-2xl bg-white px-4 shadow-[0_8px_30px_rgba(14,27,61,0.08)] md:px-5">
+      <a class="flex items-center gap-2.5 text-[15px] font-extrabold tracking-tight text-navy no-underline" href="index.html">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-blue text-xs font-extrabold text-white">CA</span>
+        Chaitra
+      </a>
+      <button id="nav-toggle" class="grid h-11 w-11 place-items-center rounded-xl border border-line md:hidden" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
         <span class="relative block h-px w-4 bg-navy before:absolute before:left-0 before:-top-1.5 before:h-px before:w-4 before:bg-navy before:content-[''] after:absolute after:left-0 after:top-1.5 after:h-px after:w-4 after:bg-navy after:content-['']"></span>
       </button>
-      <nav id="site-nav" class="max-md:fixed max-md:inset-x-0 max-md:bottom-0 max-md:top-[4.5rem] max-md:hidden max-md:flex-col max-md:gap-2 max-md:bg-white max-md:p-5 md:flex md:items-center md:gap-8" aria-label="Primary">
-        <a class="text-sm font-semibold text-ink no-underline hover:text-blue aria-[current=page]:text-blue max-md:border-b max-md:border-line max-md:py-3 max-md:text-lg" href="index.html" aria-current="page">Home</a>
-        <a class="text-sm font-semibold text-ink no-underline hover:text-blue aria-[current=page]:text-blue max-md:border-b max-md:border-line max-md:py-3 max-md:text-lg" href="about.html">About Us</a>
-        <a class="text-sm font-semibold text-ink no-underline hover:text-blue aria-[current=page]:text-blue max-md:border-b max-md:border-line max-md:py-3 max-md:text-lg" href="services.html">Services</a>
-        <a class="inline-flex items-center justify-center rounded-full bg-navy px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-blue max-md:mt-3" href="contact.html">Get in Touch</a>
+      <nav id="site-nav" class="max-md:absolute max-md:inset-x-0 max-md:top-[calc(100%+0.5rem)] max-md:hidden max-md:flex-col max-md:gap-1 max-md:rounded-2xl max-md:bg-white max-md:p-3 max-md:shadow-lg md:absolute md:left-1/2 md:flex md:-translate-x-1/2 md:items-center md:gap-7" aria-label="Primary">
+        <a class="text-sm font-medium text-navy no-underline max-md:rounded-xl max-md:px-3 max-md:py-3 max-md:text-base" href="index.html" aria-current="page">Home</a>
+        <a class="text-sm font-medium text-muted no-underline hover:text-navy max-md:rounded-xl max-md:px-3 max-md:py-3 max-md:text-base" href="about.html">About Us</a>
+        <a class="text-sm font-medium text-muted no-underline hover:text-navy max-md:rounded-xl max-md:px-3 max-md:py-3 max-md:text-base" href="services.html">Services</a>
+        <a class="mt-2 rounded-xl bg-blue px-4 py-3 text-center text-sm font-semibold text-white no-underline md:hidden" href="contact.html">Get in Touch</a>
       </nav>
+      <a class="hidden rounded-xl bg-blue px-5 py-2.5 text-sm font-semibold text-white no-underline hover:bg-[#2f62d6] md:inline-flex" href="contact.html">Get in Touch</a>
     </div>
   </header>
 
   <main id="main">
-    <section class="mx-auto w-full max-w-6xl px-5 pt-6">
-      <div class="grid items-center gap-10 overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#16356f] via-[#2f6fe0] to-[#8eb6ff] px-6 py-12 text-white md:grid-cols-2 md:px-12 md:py-16">
-        <div>
-          <p class="text-xs font-bold uppercase tracking-[0.16em] text-white/80">VC PE Fund Finance</p>
-          <h1 class="mt-4 text-4xl font-extrabold leading-[1.08] tracking-tight md:text-5xl">Helping investment managers build investor-ready finance operations without the cost of a full-time finance team.</h1>
-          <p class="mt-5 max-w-xl text-lg text-white/85">From fund formation to exit, we become your outsourced finance office.</p>
-          <div class="mt-8 flex flex-wrap gap-3">
-            <a class="inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-navy no-underline hover:bg-sky" href="contact.html">Get in Touch</a>
-            <a class="inline-flex rounded-full border border-white/50 px-6 py-3 text-sm font-bold text-white no-underline hover:bg-white/10" href="services.html">Services</a>
+    <section class="px-4 pb-8 pt-28">
+      <div class="relative mx-auto max-w-6xl overflow-visible rounded-[32px] bg-gradient-to-br from-[#2457d8] via-[#3d78f0] to-[#7eacff] px-6 pb-8 pt-12 shadow-[0_20px_50px_rgba(36,87,216,0.18)] md:px-12 md:pt-16 lg:pb-10">
+        <div class="grid items-end gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+          <div class="pb-2 lg:pb-20">
+            <a class="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white no-underline ring-1 ring-white/25 hover:bg-white/25" href="about.html">
+              Why work with us
+              <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <h1 class="mt-8 max-w-xl text-[2.6rem] font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl">Investor-ready <span class="underline decoration-white decoration-2 underline-offset-[10px]">finance</span> operations</h1>
+            <p class="mt-6 max-w-md text-base leading-relaxed text-white/85 md:text-lg">Helping investment managers build investor-ready finance operations without the cost of a full-time finance team.</p>
+            <p class="mt-3 max-w-md text-base text-white/75">From fund formation to exit, we become your outsourced finance office.</p>
+            <a class="mt-8 inline-flex rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-[#2456d4] no-underline shadow-sm hover:bg-sky" href="contact.html">Get in Touch</a>
+          </div>
+          <div class="relative lg:translate-y-16">
+            <div class="overflow-hidden rounded-[28px] bg-[#d7e6ff] shadow-[0_24px_50px_rgba(14,27,61,0.18)]">
+              <svg class="aspect-[5/4] w-full lg:aspect-[4/5]" viewBox="0 0 640 760" role="img" aria-label="Finance workspace">
+                <rect width="640" height="760" fill="#c5d9fb"/>
+                <rect x="0" y="430" width="640" height="330" fill="#8fb0ea"/>
+                <rect x="70" y="250" width="500" height="300" rx="18" fill="#f7f9fd"/>
+                <rect x="96" y="278" width="210" height="130" rx="8" fill="#3d73ea"/>
+                <rect x="114" y="300" width="90" height="8" rx="4" fill="#d6e4ff"/>
+                <rect x="114" y="320" width="140" height="8" rx="4" fill="#9ebdf5"/>
+                <rect x="114" y="340" width="70" height="40" rx="6" fill="#1d4ed0"/>
+                <rect x="330" y="278" width="210" height="244" rx="8" fill="#eef3fb"/>
+                <rect x="350" y="304" width="170" height="10" rx="5" fill="#c5d4ea"/>
+                <rect x="350" y="328" width="140" height="8" rx="4" fill="#d5e0f0"/>
+                <rect x="350" y="360" width="170" height="70" rx="8" fill="#ffffff"/>
+                <path d="M366 410 L390 388 L414 400 L438 372 L462 394 L486 360 L502 378" fill="none" stroke="#3d73ea" stroke-width="4" stroke-linecap="round"/>
+                <rect x="120" y="560" width="160" height="110" rx="10" fill="#f4f7fb" transform="rotate(-8 200 615)"/>
+                <rect x="360" y="575" width="150" height="90" rx="12" fill="#0e1b3d"/>
+                <circle cx="150" cy="180" r="46" fill="#3d73ea"/>
+                <circle cx="500" cy="160" r="28" fill="#ffffff" opacity="0.7"/>
+              </svg>
+            </div>
+            <svg class="absolute -left-6 bottom-24 h-16 w-16 text-[#3d78f0] drop-shadow md:-left-8 md:h-20 md:w-20" viewBox="0 0 80 80" aria-hidden="true">
+              <path fill="currentColor" d="M40 2l6.2 24.2L70 14.5 52.8 36.2 78 46l-25.6 6.4L64 78 40 56.5 16 78l11.6-25.6L2 46l25.2-9.8L10 14.5l23.8 11.7z"/>
+            </svg>
           </div>
         </div>
-        <aside class="rounded-3xl bg-white/15 p-6 ring-1 ring-white/30 backdrop-blur">
-          <p class="text-xs font-bold uppercase tracking-[0.14em] text-white/75">Why work with us</p>
-          <p class="mt-3 text-2xl font-bold leading-snug">Trusted to manage finance operations for an institutional cross-border investment platform.</p>
-          <ul class="mt-5 space-y-3 text-sm text-white/90">
-            <li class="rounded-2xl bg-white/10 px-4 py-3">India + Netherlands reporting and treasury.</li>
-            <li class="rounded-2xl bg-white/10 px-4 py-3">Work directly with the person doing the work.</li>
-            <li class="rounded-2xl bg-white/10 px-4 py-3">Monthly support, project work, or Fractional Fund Controller.</li>
-          </ul>
-        </aside>
       </div>
     </section>
 
-    <section class="mx-auto grid w-full max-w-6xl gap-8 px-5 py-14 sm:grid-cols-2 lg:grid-cols-5" aria-label="Experience">
-      <div><p class="text-4xl font-extrabold text-navy">8+ years</p><p class="mt-1 text-sm text-muted">5 years in VC. CA with finance experience.</p></div>
-      <div><p class="text-4xl font-extrabold text-navy">$30.3M</p><p class="mt-1 text-sm text-muted">Cross-border fund managed</p></div>
-      <div><p class="text-4xl font-extrabold text-navy">22</p><p class="mt-1 text-sm text-muted">Portfolio companies supported</p></div>
-      <div><p class="text-4xl font-extrabold text-navy">India &amp; NL</p><p class="mt-1 text-sm text-muted">Cross-border experience</p></div>
-      <div><p class="text-4xl font-extrabold text-navy">Big 4</p><p class="mt-1 text-sm text-muted">Audit coordination</p></div>
+    <section class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 pb-6 pt-20 text-sm font-semibold tracking-wide text-muted lg:pt-28" aria-label="Our clients">
+      <span>Emerging fund managers</span>
+      <span>VC funds</span>
+      <span>PE funds</span>
+      <span>Family offices</span>
+      <span>Overseas funds investing into India</span>
     </section>
 
-    <section class="bg-sky">
-      <div class="mx-auto grid w-full max-w-6xl items-start gap-10 px-5 py-16 lg:grid-cols-2">
-        <div>
-          <p class="text-xs font-bold uppercase tracking-[0.16em] text-blue">The problem &amp; the solution</p>
-          <h2 class="mt-3 text-3xl font-extrabold leading-tight tracking-tight text-navy md:text-4xl">We become your in-house / extended finance team.</h2>
-          <ul class="mt-6 space-y-3">
-            <li class="rounded-2xl bg-white px-4 py-3">LP reporting expectations increase</li>
-            <li class="rounded-2xl bg-white px-4 py-3">Increasing demands on internal finance teams</li>
-            <li class="rounded-2xl bg-white px-4 py-3">Audit and compliance become complex</li>
-            <li class="rounded-2xl bg-white px-4 py-3">Cross-border operations consume management time</li>
-          </ul>
+    <section class="mx-auto grid w-full max-w-6xl items-center gap-12 px-5 py-16 lg:grid-cols-2 lg:py-24">
+      <div class="relative">
+        <div class="overflow-hidden rounded-[28px] bg-[#dbe7fb]">
+          <svg class="aspect-[4/5] w-full" viewBox="0 0 640 780" role="img" aria-label="Reporting workspace">
+            <rect width="640" height="780" fill="#d5e4fb"/>
+            <rect x="80" y="90" width="480" height="560" rx="24" fill="#f8fafc"/>
+            <rect x="120" y="140" width="180" height="120" rx="12" fill="#3d73ea"/>
+            <rect x="320" y="140" width="200" height="50" rx="10" fill="#e7eef8"/>
+            <rect x="320" y="206" width="160" height="54" rx="10" fill="#0e1b3d"/>
+            <rect x="120" y="290" width="400" height="16" rx="8" fill="#d5e0ee"/>
+            <rect x="120" y="324" width="340" height="16" rx="8" fill="#e4ebf5"/>
+            <rect x="120" y="358" width="280" height="16" rx="8" fill="#e4ebf5"/>
+            <rect x="120" y="430" width="120" height="150" rx="14" fill="#3d73ea"/>
+            <rect x="260" y="480" width="120" height="100" rx="14" fill="#8eb4f5"/>
+            <rect x="400" y="430" width="120" height="150" rx="14" fill="#0e1b3d"/>
+          </svg>
         </div>
-        <ul class="grid gap-3">
-          <li class="rounded-3xl bg-white p-5 text-lg font-semibold">Investor-ready reporting</li>
-          <li class="rounded-3xl bg-white p-5 text-lg font-semibold">Audit-ready financial records</li>
-          <li class="rounded-3xl bg-white p-5 text-lg font-semibold">Controlled treasury operations</li>
-          <li class="rounded-3xl bg-white p-5 text-lg font-semibold">Fractional Fund Controller support</li>
+        <div class="absolute bottom-6 left-6 right-6 rounded-2xl bg-white p-4 shadow-[0_16px_40px_rgba(14,27,61,0.12)] sm:right-auto sm:w-72">
+          <p class="text-sm text-muted">Portfolio companies supported</p>
+          <p class="mt-1 text-3xl font-extrabold tracking-tight text-navy">22</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-blue">About us</p>
+        <h2 class="mt-4 text-4xl font-extrabold leading-[1.1] tracking-tight text-navy md:text-5xl">We become your in-house / extended finance team.</h2>
+        <p class="mt-6 text-lg leading-relaxed text-muted">Trusted to manage finance operations for an institutional cross-border investment platform. From fund formation to exit, we become your outsourced finance office.</p>
+        <a class="mt-8 inline-flex rounded-xl bg-blue px-6 py-3.5 text-sm font-semibold text-white no-underline hover:bg-[#2f62d6]" href="about.html">Learn More</a>
+      </div>
+    </section>
+
+    <section class="mx-auto grid w-full max-w-6xl gap-x-8 gap-y-10 px-5 py-8 sm:grid-cols-2 lg:grid-cols-4 lg:py-16" aria-label="Experience">
+      <div class="min-w-0">
+        <p class="text-5xl font-extrabold tracking-tight text-navy lg:text-6xl">8+</p>
+        <p class="mt-2 text-muted">Years. 5 in VC. CA with finance experience.</p>
+      </div>
+      <div class="min-w-0">
+        <p class="text-5xl font-extrabold tracking-tight text-navy lg:text-6xl">$30.3M</p>
+        <p class="mt-2 text-muted">Cross-border fund managed</p>
+      </div>
+      <div class="min-w-0">
+        <p class="text-5xl font-extrabold tracking-tight text-navy lg:text-6xl">22</p>
+        <p class="mt-2 text-muted">Portfolio companies supported</p>
+      </div>
+      <div class="min-w-0">
+        <p class="text-5xl font-extrabold tracking-tight text-navy lg:text-6xl">Big 4</p>
+        <p class="mt-2 text-muted">Audit coordination</p>
+      </div>
+    </section>
+    <p class="px-5 pb-6 text-center text-lg font-semibold text-navy">India &amp; NL — cross-border experience</p>
+
+    <section class="mx-auto max-w-4xl px-5 py-20 text-center">
+      <h2 class="text-4xl font-extrabold leading-[1.12] tracking-tight text-navy md:text-5xl">Trusted to manage finance operations for an institutional cross-border investment platform.</h2>
+      <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted">LP reporting expectations increase. Increasing demands on internal finance teams. Audit and compliance become complex. Cross-border operations consume management time.</p>
+      <ul class="mx-auto mt-8 grid max-w-3xl gap-3 text-left sm:grid-cols-2">
+        <li class="rounded-2xl bg-white px-4 py-3 font-semibold text-navy">Investor-ready reporting</li>
+        <li class="rounded-2xl bg-white px-4 py-3 font-semibold text-navy">Audit-ready financial records</li>
+        <li class="rounded-2xl bg-white px-4 py-3 font-semibold text-navy">Controlled treasury operations</li>
+        <li class="rounded-2xl bg-white px-4 py-3 font-semibold text-navy">Fractional Fund Controller support</li>
+      </ul>
+      <a class="mt-8 inline-flex rounded-xl bg-blue px-6 py-3.5 text-sm font-semibold text-white no-underline hover:bg-[#2f62d6]" href="services.html">Discover More</a>
+    </section>
+
+    <section class="bg-navy text-white">
+      <div class="mx-auto grid max-w-6xl gap-8 px-5 py-16 md:grid-cols-[180px_1fr] md:py-20">
+        <p class="text-sm text-white/60">Our Capabilities</p>
+        <ul>
+          <li class="border-b border-white/15"><a class="flex items-center justify-between gap-4 py-6 text-3xl font-semibold tracking-tight no-underline hover:text-white/80 md:text-4xl" href="services.html">Fund accounting <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-lg" aria-hidden="true">→</span></a></li>
+          <li class="border-b border-white/15"><a class="flex items-center justify-between gap-4 py-6 text-3xl font-semibold tracking-tight no-underline hover:text-white/80 md:text-4xl" href="services.html">Investor reporting <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-lg" aria-hidden="true">→</span></a></li>
+          <li class="border-b border-white/15"><a class="flex items-center justify-between gap-4 py-6 text-3xl font-semibold tracking-tight no-underline hover:text-white/80 md:text-4xl" href="services.html">Treasury <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-lg" aria-hidden="true">→</span></a></li>
+          <li class="border-b border-white/15"><a class="flex items-center justify-between gap-4 py-6 text-3xl font-semibold tracking-tight no-underline hover:text-white/80 md:text-4xl" href="services.html">Audits and regulatory coordination <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-lg" aria-hidden="true">→</span></a></li>
+          <li class="border-b border-white/15"><a class="flex items-center justify-between gap-4 py-6 text-3xl font-semibold tracking-tight no-underline hover:text-white/80 md:text-4xl" href="services.html">Compliance <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-lg" aria-hidden="true">→</span></a></li>
+          <li><a class="flex items-center justify-between gap-4 py-6 text-3xl font-semibold tracking-tight no-underline hover:text-white/80 md:text-4xl" href="services.html">Portfolio reporting <span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-lg" aria-hidden="true">→</span></a></li>
         </ul>
       </div>
     </section>
 
-    <section class="mx-auto w-full max-w-6xl px-5 py-16">
-      <p class="text-xs font-bold uppercase tracking-[0.16em] text-blue">Services</p>
-      <h2 class="mt-3 max-w-3xl text-3xl font-extrabold leading-tight tracking-tight text-navy md:text-4xl">Managed the complete finance function — from fund accounting and investor reporting to treasury, audits and regulatory coordination.</h2>
-      <p class="mt-4 max-w-2xl text-muted">Experience across fund accounting, treasury, investor reporting, audits, compliance, and portfolio reporting.</p>
-      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <a class="rounded-3xl border border-line bg-white p-6 no-underline shadow-sm hover:border-blue" href="services.html"><h3 class="text-xl font-bold text-navy">Fund accounting</h3></a>
-        <a class="rounded-3xl border border-line bg-white p-6 no-underline shadow-sm hover:border-blue" href="services.html"><h3 class="text-xl font-bold text-navy">Investor reporting</h3></a>
-        <a class="rounded-3xl border border-line bg-white p-6 no-underline shadow-sm hover:border-blue" href="services.html"><h3 class="text-xl font-bold text-navy">Treasury</h3></a>
-        <a class="rounded-3xl border border-line bg-white p-6 no-underline shadow-sm hover:border-blue" href="services.html"><h3 class="text-xl font-bold text-navy">Audits and regulatory coordination</h3></a>
-        <a class="rounded-3xl border border-line bg-white p-6 no-underline shadow-sm hover:border-blue" href="services.html"><h3 class="text-xl font-bold text-navy">Compliance</h3></a>
-        <a class="rounded-3xl border border-line bg-white p-6 no-underline shadow-sm hover:border-blue" href="services.html"><h3 class="text-xl font-bold text-navy">Portfolio reporting</h3></a>
+    <section class="mx-auto w-full max-w-6xl px-5 py-20">
+      <p class="text-sm font-semibold text-blue">Why work with us</p>
+      <h2 class="mt-3 max-w-xl text-4xl font-extrabold tracking-tight text-navy">Managed the complete finance function.</h2>
+      <div class="mt-10 grid gap-x-16 gap-y-10 md:grid-cols-2">
+        <article>
+          <p class="text-sm font-bold text-blue">1</p>
+          <h3 class="mt-2 text-2xl font-bold text-navy">Proven experience</h3>
+          <p class="mt-2 leading-relaxed text-muted">Managed the complete finance function — from fund accounting and investor reporting to treasury, audits and regulatory coordination.</p>
+        </article>
+        <article>
+          <p class="text-sm font-bold text-blue">2</p>
+          <h3 class="mt-2 text-2xl font-bold text-navy">Cross-border expertise</h3>
+          <p class="mt-2 leading-relaxed text-muted">India + Netherlands reporting and treasury.</p>
+        </article>
+        <article>
+          <p class="text-sm font-bold text-blue">3</p>
+          <h3 class="mt-2 text-2xl font-bold text-navy">Founder-led delivery</h3>
+          <p class="mt-2 leading-relaxed text-muted">Work directly with the person doing the work.</p>
+        </article>
+        <article>
+          <p class="text-sm font-bold text-blue">4</p>
+          <h3 class="mt-2 text-2xl font-bold text-navy">Flexible engagement</h3>
+          <p class="mt-2 leading-relaxed text-muted">Monthly support, project work, or Fractional Fund Controller.</p>
+        </article>
       </div>
     </section>
 
-    <section class="mx-auto w-full max-w-6xl px-5 pb-16">
-      <h2 class="text-3xl font-extrabold tracking-tight text-navy">Our clients</h2>
-      <ul class="mt-6 flex flex-wrap gap-3">
-        <li class="rounded-full border border-line px-4 py-2 text-sm font-semibold">Emerging fund managers</li>
-        <li class="rounded-full border border-line px-4 py-2 text-sm font-semibold">VC funds</li>
-        <li class="rounded-full border border-line px-4 py-2 text-sm font-semibold">PE funds</li>
-        <li class="rounded-full border border-line px-4 py-2 text-sm font-semibold">Family offices</li>
-        <li class="rounded-full border border-line px-4 py-2 text-sm font-semibold">Overseas funds investing into India</li>
-      </ul>
-      <div class="mt-12 grid gap-4 md:grid-cols-2">
-        <article class="rounded-3xl bg-navy p-6 text-white">
-          <h3 class="text-2xl font-bold">Impact &amp; ESG advisory</h3>
-          <p class="mt-2 text-sm text-white/75">Through a trusted network of specialist advisors, I also facilitate access to services, including:</p>
-          <ul class="mt-4 list-disc space-y-1.5 pl-5 text-sm">
+    <section class="bg-white">
+      <div class="mx-auto grid w-full max-w-6xl gap-6 px-5 py-16 md:grid-cols-2">
+        <article class="rounded-[28px] bg-sky p-8">
+          <h2 class="text-3xl font-extrabold tracking-tight text-navy">Impact &amp; ESG advisory</h2>
+          <p class="mt-3 text-muted">Through a trusted network of specialist advisors, I also facilitate access to services, including:</p>
+          <ul class="mt-5 space-y-2 text-ink">
             <li>Impact measurement using IRIS+ (GIIN) metrics</li>
             <li>Gender assessments aligned with 2X Global standards</li>
             <li>ESG action planning and performance scoring</li>
           </ul>
         </article>
-        <article class="rounded-3xl bg-sky p-6">
-          <h3 class="text-2xl font-bold text-navy">Valuation &amp; transaction advisory</h3>
-          <ul class="mt-4 list-disc space-y-1.5 pl-5">
+        <article class="rounded-[28px] bg-navy p-8 text-white">
+          <h2 class="text-3xl font-extrabold tracking-tight">Valuation &amp; transaction advisory</h2>
+          <ul class="mt-5 space-y-2 text-white/85">
             <li>Financial modelling</li>
             <li>Investment screening</li>
             <li>Investor readiness and pitch refinement</li>
@@ -126,39 +210,49 @@
       </div>
     </section>
 
-    <section class="mx-auto w-full max-w-6xl px-5 pb-16">
-      <div class="flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-navy px-6 py-10 text-white md:flex-row md:items-end md:px-10">
-        <h2 class="max-w-xl text-3xl font-extrabold leading-tight tracking-tight md:text-4xl">Let's discuss how we can strengthen your fund finance function.</h2>
-        <a class="inline-flex rounded-full bg-white px-6 py-3 text-sm font-bold text-navy no-underline hover:bg-sky" href="contact.html">Get in Touch</a>
+    <section class="bg-navy text-white">
+      <div class="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-2 md:py-20">
+        <div>
+          <h2 class="text-4xl font-extrabold leading-tight tracking-tight md:text-5xl">Let's discuss how we can strengthen your fund finance function.</h2>
+          <a class="mt-8 inline-flex rounded-xl bg-blue px-6 py-3.5 text-sm font-semibold text-white no-underline hover:bg-[#2f62d6]" href="contact.html">Get in Touch</a>
+        </div>
+        <div class="md:pt-2">
+          <h3 class="text-2xl font-bold">Let's stay in touch</h3>
+          <p class="mt-3 max-w-md text-white/70">Follow us on LinkedIn for updates.</p>
+          <a class="mt-6 inline-flex items-center gap-3 font-semibold text-white no-underline hover:text-white/80" href="https://www.linkedin.com/in/chaitra-manjunatha-h-bba215201/" rel="noopener noreferrer">
+            <span class="grid h-10 w-10 place-items-center rounded-full bg-white/10" aria-hidden="true">in</span>
+            Follow us on LinkedIn
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="border-t border-line">
-    <div class="mx-auto grid w-full max-w-6xl gap-8 px-5 py-10 md:grid-cols-3">
+  <footer class="bg-white">
+    <div class="mx-auto grid w-full max-w-6xl gap-10 px-5 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
       <div>
         <p class="text-lg font-extrabold text-navy">Chaitra &amp; Associates</p>
-        <p class="mt-3 text-sm text-muted">Helping investment managers build investor-ready finance operations without the cost of a full-time finance team.</p>
+        <p class="mt-3 max-w-sm text-sm leading-relaxed text-muted">Helping investment managers build investor-ready finance operations without the cost of a full-time finance team.</p>
       </div>
       <div>
-        <p class="text-xs font-bold uppercase tracking-[0.14em] text-blue">Menu</p>
-        <ul class="mt-3 space-y-2 text-sm">
-          <li><a class="text-ink no-underline hover:text-blue" href="index.html">Home</a></li>
-          <li><a class="text-ink no-underline hover:text-blue" href="about.html">About Us</a></li>
-          <li><a class="text-ink no-underline hover:text-blue" href="services.html">Services</a></li>
-          <li><a class="text-ink no-underline hover:text-blue" href="contact.html">Get in Touch</a></li>
+        <p class="text-sm font-bold text-navy">Menu</p>
+        <ul class="mt-4 space-y-2 text-sm text-muted">
+          <li><a class="no-underline hover:text-navy" href="index.html">Home</a></li>
+          <li><a class="no-underline hover:text-navy" href="about.html">About Us</a></li>
+          <li><a class="no-underline hover:text-navy" href="services.html">Services</a></li>
+          <li><a class="no-underline hover:text-navy" href="contact.html">Get in Touch</a></li>
         </ul>
       </div>
       <div>
-        <p class="text-xs font-bold uppercase tracking-[0.14em] text-blue">Get in touch</p>
-        <ul class="mt-3 space-y-2 text-sm">
-          <li><a class="text-ink no-underline hover:text-blue" href="mailto:chaitra.manjunathah@gmail.com">chaitra.manjunathah@gmail.com</a></li>
-          <li><a class="text-ink no-underline hover:text-blue" href="tel:+919740395113">+91 9740395113</a></li>
-          <li><a class="text-ink no-underline hover:text-blue" href="https://www.linkedin.com/in/chaitra-manjunatha-h-bba215201/" rel="noopener noreferrer">LinkedIn</a></li>
+        <p class="text-sm font-bold text-navy">Get in touch</p>
+        <ul class="mt-4 space-y-2 text-sm text-muted">
+          <li><a class="no-underline hover:text-navy" href="mailto:chaitra.manjunathah@gmail.com">chaitra.manjunathah@gmail.com</a></li>
+          <li><a class="no-underline hover:text-navy" href="tel:+919740395113">+91 9740395113</a></li>
+          <li><a class="no-underline hover:text-navy" href="https://www.linkedin.com/in/chaitra-manjunatha-h-bba215201/" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </div>
     </div>
-    <p class="border-t border-line px-5 py-4 text-center text-sm text-muted">© <span data-year>2026</span> Chaitra &amp; Associates</p>
+    <p class="border-t border-line px-5 py-5 text-center text-sm text-muted">© <span data-year>2026</span> Chaitra &amp; Associates</p>
   </footer>
   <script src="js/main.js"></script>
 </body>

@@ -3,13 +3,13 @@
 @source "../*.html";
 
 @theme {
-  --font-sans: "Manrope", "Segoe UI", sans-serif;
-  --color-navy: #10233f;
-  --color-blue: #2f6fe0;
-  --color-sky: #eef4ff;
-  --color-ink: #162033;
-  --color-muted: #5d6b80;
-  --color-line: #e6edf6;
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --color-navy: #0e1b3d;
+  --color-blue: #3d73ea;
+  --color-sky: #f4f7fb;
+  --color-ink: #1a2744;
+  --color-muted: #6d7c93;
+  --color-line: #e7edf5;
 }
 
 @layer base {
