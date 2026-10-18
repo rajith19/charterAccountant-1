@@ -48,58 +48,32 @@
     </div>
   </header>
 
-    <main id="main">
-    <header class="mx-auto w-full max-w-[1120px] px-5 pb-2 pt-16 sm:px-6">
-      <p class="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-bronze-deep">Get in touch</p>
-      <h1 class="max-w-[18ch] font-serif text-[clamp(2.5rem,4.8vw,4.05rem)] font-medium leading-[1.05] tracking-tight text-forest-deep">Let's discuss how we can strengthen your fund finance function.</h1>
-    </header>
-
-    <section class="mx-auto w-full max-w-[1120px] px-5 pt-8 sm:px-6">
-      <div class="grid gap-4 md:grid-cols-3">
-        <article class="border border-ink/15 bg-paper/70 p-5">
-          <p class="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-bronze-deep">Email</p>
-          <p class="mt-3"><a class="font-semibold text-forest underline underline-offset-4 hover:text-bronze-deep" href="mailto:chaitra.manjunathah@gmail.com">chaitra.manjunathah@gmail.com</a></p>
-        </article>
-        <article class="border border-ink/15 bg-paper/70 p-5">
-          <p class="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-bronze-deep">Phone</p>
-          <p class="mt-3"><a class="font-semibold text-forest underline underline-offset-4 hover:text-bronze-deep" href="tel:+919740395113">+91 9740395113</a></p>
-        </article>
-        <article class="border border-ink/15 bg-paper/70 p-5">
-          <p class="text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-bronze-deep">LinkedIn</p>
-          <p class="mt-3"><a class="font-semibold text-forest underline underline-offset-4 hover:text-bronze-deep" href="https://www.linkedin.com/in/chaitra-manjunatha-h-bba215201/" rel="noopener noreferrer">linkedin.com/in/chaitra-manjunatha-h-bba215201</a></p>
-        </article>
+  <main id="main">
+    <section class="mx-auto grid w-full max-w-[1120px] items-start gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:py-20">
+      <div>
+        <p class="text-sm font-semibold text-bronze-deep">Get in touch</p>
+        <h1 class="mt-4 font-serif text-4xl font-medium leading-[1.08] tracking-tight text-forest-deep md:text-5xl">Let's discuss how we can strengthen your fund finance function.</h1>
+        <ul class="mt-8 space-y-4 text-lg">
+          <li><a class="font-semibold text-forest underline decoration-bronze/40 underline-offset-4 hover:text-bronze-deep" href="mailto:chaitra.manjunathah@gmail.com">chaitra.manjunathah@gmail.com</a></li>
+          <li><a class="font-semibold text-forest underline decoration-bronze/40 underline-offset-4 hover:text-bronze-deep" href="tel:+919740395113">+91 9740395113</a></li>
+          <li><a class="font-semibold text-forest underline decoration-bronze/40 underline-offset-4 hover:text-bronze-deep" href="https://www.linkedin.com/in/chaitra-manjunatha-h-bba215201/" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
       </div>
-    </section>
-
-    <section class="mx-auto w-full max-w-[1120px] px-5 py-12 sm:px-6">
-      <form class="enquiry-form grid max-w-3xl gap-4 border border-ink/30 bg-paper p-6" action="https://formsubmit.co/chaitra.manjunathah@gmail.com" method="POST">
+      <form class="enquiry-form grid gap-4 rounded-[28px] bg-paper p-6 shadow-[0_16px_40px_rgba(19,38,28,0.06)] md:p-8" action="https://formsubmit.co/chaitra.manjunathah@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="Fund finance enquiry">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
         <input class="hidden" type="text" name="_honey" tabindex="-1" autocomplete="off">
         <div class="grid gap-4 sm:grid-cols-2">
-          <label class="grid gap-1.5 text-sm font-semibold">
-            Name
-            <input class="w-full border border-ink/30 bg-ivory px-3 py-3 font-normal" type="text" name="name" autocomplete="name" required>
-          </label>
-          <label class="grid gap-1.5 text-sm font-semibold">
-            Organisation
-            <input class="w-full border border-ink/30 bg-ivory px-3 py-3 font-normal" type="text" name="organisation" autocomplete="organization">
-          </label>
+          <label class="grid gap-1.5 text-sm font-semibold text-forest">Name<input class="rounded-xl border border-ink/15 bg-ivory px-3 py-3 font-normal" type="text" name="name" autocomplete="name" required></label>
+          <label class="grid gap-1.5 text-sm font-semibold text-forest">Organisation<input class="rounded-xl border border-ink/15 bg-ivory px-3 py-3 font-normal" type="text" name="organisation" autocomplete="organization"></label>
         </div>
         <div class="grid gap-4 sm:grid-cols-2">
-          <label class="grid gap-1.5 text-sm font-semibold">
-            Email
-            <input class="w-full border border-ink/30 bg-ivory px-3 py-3 font-normal" type="email" name="email" autocomplete="email" required>
-          </label>
-          <label class="grid gap-1.5 text-sm font-semibold">
-            Phone
-            <input class="w-full border border-ink/30 bg-ivory px-3 py-3 font-normal" type="tel" name="phone" autocomplete="tel">
-          </label>
+          <label class="grid gap-1.5 text-sm font-semibold text-forest">Email<input class="rounded-xl border border-ink/15 bg-ivory px-3 py-3 font-normal" type="email" name="email" autocomplete="email" required></label>
+          <label class="grid gap-1.5 text-sm font-semibold text-forest">Phone<input class="rounded-xl border border-ink/15 bg-ivory px-3 py-3 font-normal" type="tel" name="phone" autocomplete="tel"></label>
         </div>
-        <label class="grid gap-1.5 text-sm font-semibold">
-          Service
-          <select class="w-full border border-ink/30 bg-ivory px-3 py-3 font-normal" name="interest">
+        <label class="grid gap-1.5 text-sm font-semibold text-forest">Service
+          <select class="rounded-xl border border-ink/15 bg-ivory px-3 py-3 font-normal" name="interest">
             <option>Fund accounting</option>
             <option>Investor reporting</option>
             <option>Treasury</option>
@@ -113,12 +87,9 @@
             <option>Valuation &amp; transaction advisory</option>
           </select>
         </label>
-        <label class="grid gap-1.5 text-sm font-semibold">
-          Message
-          <textarea class="min-h-36 w-full resize-y border border-ink/30 bg-ivory px-3 py-3 font-normal" name="message" required></textarea>
-        </label>
+        <label class="grid gap-1.5 text-sm font-semibold text-forest">Message<textarea class="min-h-36 rounded-xl border border-ink/15 bg-ivory px-3 py-3 font-normal" name="message" required></textarea></label>
         <p class="form-status min-h-5 text-sm text-muted" role="status"></p>
-        <button class="inline-flex min-h-12 cursor-pointer items-center justify-center border border-forest bg-forest px-5 text-[0.92rem] text-ivory hover:bg-forest-mid" type="submit">Get in touch</button>
+        <button class="inline-flex w-fit cursor-pointer rounded-xl bg-forest px-6 py-3.5 text-sm font-semibold text-ivory hover:bg-forest-mid disabled:opacity-60" type="submit">Get in touch</button>
       </form>
     </section>
   </main>
