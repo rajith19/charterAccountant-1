@@ -1,0 +1,12 @@
+{
+  "name": "chaitra-associates",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i css/input.css -o css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i css/input.css -o css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}
