@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@source "../*.html";
+
+@theme {
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+  --color-navy: #10233f;
+  --color-blue: #2f6fe0;
+  --color-sky: #eef4ff;
+  --color-ink: #162033;
+  --color-muted: #5d6b80;
+  --color-line: #e6edf6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 3px;
+  }
+}

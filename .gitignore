@@ -1,4 +1,6 @@
 node_modules/
+.netlify/
+_preview/
 *.pdf
 .DS_Store
 Thumbs.db
